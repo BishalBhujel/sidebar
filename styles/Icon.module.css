@@ -1,0 +1,138 @@
+@media screen and (min-width:768px){
+   .all{
+  display: flex;
+  max-width:100%;
+}
+
+.ele1{
+  min-width: 240px;
+}
+
+.sidebar1{
+  position:fixed;
+  left: 0%;
+  overflow-y: scroll;
+  height: 100vh;
+  min-width: 240px;
+}
+
+.ele2{
+  background-color: rgb(248, 247, 247);
+}
+
+.main{
+  padding-right: 35px;
+  padding-left: 35px;
+}
+}
+ 
+
+.main{
+  margin-top: -5.5rem !important; 
+}
+
+.col {
+  flex-basis: 0;
+  flex-grow: 1;
+  max-width: 100%; }
+
+.shadow{
+  box-shadow: 0 0 2rem 0 rgba(136, 152, 170, 0.15) !important;
+}
+
+.bgTransparent {
+  background-color: transparent !important; 
+}
+
+.icon{
+  margin-bottom: 0px !important; 
+}
+
+.iconExamples {
+  margin-top: 1rem; 
+}
+
+.btnIconClipboard {
+  margin: 0;
+  padding: 1.5rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.25;
+  color: #32325d;
+  background-color: #f6f9fc;
+  border-radius: 0.375rem;
+  border: 0;
+  text-align: left;
+  font-family: inherit;
+  display: inline-block;
+  vertical-align: middle;
+  text-decoration: none;
+  -moz-appearance: none;
+  cursor: pointer;
+  width: 100%;
+  margin: .5rem 0;
+}
+
+.btnIconClipboard:hover {
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 0 0 1px, rgba(0, 0, 0, 0.1) 0 4px 16px; 
+}
+
+.btnIconClipboardDiv {
+    align-items: center;
+    display: flex; 
+}
+
+.btnIconClipboardDiv>i {
+    box-sizing: content-box;
+    color: black;
+    vertical-align: middle;
+    font-size: 1.5rem; 
+}
+
+.Span {
+    display: inline-block;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    margin-left: 16px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    vertical-align: middle; 
+}
+
+
+
+
+/*Map*/
+  .mapmain{
+    margin-top: -7rem;
+    margin-bottom: 1rem;
+  }
+
+  .mapdiv{
+    padding-left: 25px;
+    padding-right: 25px;
+    width: 100%;
+  }
+
+  .maps{
+    border-radius: 10px;
+    height: 600px;
+  }  
+
+
+/*
+@media screen and (min-width:1290px){
+  .maps{
+    width: 980px;
+  }
+}
+
+@media screen and (min-width:1440px){
+  .maps{
+    width: 1130px;
+    max-width: 1400px;
+  }
+}
+*/

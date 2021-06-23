@@ -1,0 +1,45 @@
+.py5{
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+    position: relative;
+    background-color: #172b4d !important;
+}
+
+.main{
+    align-items: center;
+    justify-content: space-between;
+}
+
+.copyright{
+    font-size: 0.875rem;
+    text-align: center !important;
+    color: #8898aa !important;
+}
+
+.creative{
+    font-weight: 600 !important;
+    margin-left: 0.25rem !important; 
+    text-decoration: none;
+}
+
+.other{
+    font-size: 0.875rem; 
+    justify-content: center !important; 
+    color: #8898aa !important;
+}
+
+.other:hover{
+    color: blue !important;
+}
+
+
+@media screen and (min-width:1200px){
+    .copyright{
+        text-align: left !important;
+    }
+
+    .other {
+        font-size: 1rem;
+        justify-content: flex-end !important;
+    }
+}

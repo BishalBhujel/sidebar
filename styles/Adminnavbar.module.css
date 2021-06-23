@@ -1,0 +1,123 @@
+/*.navbar{
+    background: linear-gradient(87deg, #11cdef 0, #1171ef 100%) !important;
+}*/
+
+@media screen and (max-width:768px){
+    .navbar{
+        display: none;
+    }
+}
+
+.header {
+    position: relative;
+    background: linear-gradient(87deg, #11cdef 0, #1171ef 100%) !important;
+    padding-top: 3rem !important; 
+    padding-bottom: 10rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+
+.cardstats {
+  padding: 0.3rem 0.5rem; 
+  margin-bottom: 1.5rem !important;
+}
+
+@media screen and (max-width:768px){
+    .header {
+        padding-right: 0.2rem;
+        padding-left: 0.2rem;
+    }
+
+    .cardstats {
+        padding: 0.1rem 0.5rem;
+    }
+}
+
+.col {
+  flex-basis: 0;
+  flex-grow: 1;
+  max-width: 100%; 
+}
+
+.heading{
+    text-transform: uppercase !important;
+    color: #8898aa !important;
+    margin-bottom: 0 !important;
+    font-size: 0.85rem;
+}
+
+.colauto {
+    flex: 0 0 auto;
+    width: auto;
+    max-width: 100%;
+    position: relative;
+    padding-right: 15px;
+    padding-left: 15px; 
+}
+
+.data{
+    margin-bottom: 0.5rem;
+    font-family: inherit;
+    font-weight: 600 !important;
+    line-height: 1.5;
+    color: #32325d;
+    font-size: 1.25rem;
+    margin-bottom: 0 !important; 
+}
+
+.icon {
+  width: 3rem;
+  height: 3rem; 
+  padding: 12px;
+  text-align: center;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f5365c !important;
+  color: #fff !important;
+  border-radius: 50% !important;
+}
+
+.icon i, .icon svg {
+    font-size: 1.4rem; 
+}
+
+.mt3{
+    margin-top: 1rem !important;
+    margin-bottom: 0 !important;
+    color: #8898aa !important;
+    font-size: 0.875rem !important;
+}
+
+.mr2{
+   color: #2dce89 !important;
+   margin-right: 0.5rem !important; 
+}
+
+.mr3{
+   color: red !important;
+   margin-right: 0.5rem !important; 
+}
+
+.mr4{
+    color: orange !important;
+   margin-right: 0.5rem !important; 
+}
+
+.textnowrap {
+  white-space: nowrap !important; 
+}
+
+
+
+@media screen and (min-width: 768px){
+    .header{
+        padding-top: 8rem !important;
+    }
+}
+
+@media screen and (min-width: 1200px){
+   .cardstats{
+       margin-bottom: 0 !important;
+   }
+}

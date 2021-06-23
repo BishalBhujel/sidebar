@@ -1,0 +1,267 @@
+.main{
+  margin-top: -5rem !important; 
+}
+
+.cardprofile{
+  margin-left: 20px;
+  margin-right: 25px;
+}
+
+.justifycontentbetween {
+  justify-content: space-between !important; 
+  display: flex;
+}
+
+.connect{
+  position: relative;
+  margin-right: 1.5rem !important; 
+  transform: translate(0%, 0%);
+  color: white;
+}
+
+.connect:hover{
+  transform: translate(0%, -5%); 
+  color: white;
+}
+
+.floatright {
+  position: relative;
+  float: right !important; 
+  transform: translate(0%, 0%);
+  background-color: #07325e;
+  color: white;
+}
+
+.floatright:hover{
+  transform: translate(0%, -5%);
+  color: white; 
+}
+
+.setting:hover{
+  transform: translate(0%, -5%); 
+}
+
+.col {
+  flex-basis: 0;
+  flex-grow: 1;
+  max-width: 100%; 
+}
+
+.cardprofilestats {
+  padding: 1rem 0;
+   display:flex; 
+   justify-content:center; 
+}
+
+.box {
+    text-align: center;
+    margin-right: 1rem;
+    padding: .875rem;
+}
+
+.box:last-child {
+    margin-right: 0; 
+}
+
+.heading {
+    font-size: 1.1rem;
+    font-weight: bold;
+    display: block; 
+    margin-top: 50px;
+}
+
+.description {
+    font-size: .875rem;
+    color: #adb5bd; 
+}
+
+.textcenter {
+  text-align: center !important; 
+}
+
+.username{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.fontweightlight {
+  font-weight: 300 !important; 
+  font-size: 15px;
+}
+
+.location{
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.occupation{
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.education{
+    margin-top: 8px;
+    font-weight: 300;
+    font-size: 18px;
+    color: #adb5bd;
+}
+
+.my4 {
+    margin-top: 1.5rem !important;
+    margin-bottom: 1.5rem !important;
+}
+
+.about{
+    text-align: center;
+    justify-content: center;
+    color: #4a4c4e;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.showmore{
+    text-decoration: none;
+}
+
+
+
+.bgsecondary {
+  background-color: #f7fafc !important; 
+  margin-left: 20px;
+}
+
+.bgwhite {
+  background-color: #fff !important; 
+}
+
+.alignitemscenter {
+  align-items: center !important; 
+}
+
+.myacc{
+    font-weight: 600;
+    font-size: 17px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.textright {
+  text-align: right !important; 
+}
+
+.headingsmall {
+  padding-top: .25rem;
+  padding-bottom: 1.25rem;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: .04em;
+  color: #adb5bd; 
+}
+
+.formcontrollabel {
+  color: #525f7f;
+  font-size: 0.875rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.formcontrolalternative {
+  box-shadow: 0 1px 3px rgba(50, 50, 93, 0.15), 0 1px 0 rgba(0, 0, 0, 0.02);
+  border: 0;
+  transition: box-shadow .15s ease; 
+  margin-bottom: 20px;
+  color: #7c7e85;
+}
+
+.formcontrolalternative:focus {
+    box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08); 
+    color: #7c7e85;
+}
+
+.cardprofileimage {
+  position: relative; 
+}
+
+.roundedcircle {
+    border-radius: 100px;
+    transform: translate(-50%, -30%);
+    position: absolute;
+    left: 50%;
+    transition: all 0.15s ease; 
+    max-height: 180px;
+    box-shadow: 0 0 2rem 0 rgba(136, 152, 170, 0.15) !important;
+}
+
+.roundedcircle:hover {
+      transform: translate(-50%, -33%); 
+}
+
+
+/*User profile header styling */
+
+.backgrounds{
+  min-height: 600px;
+  max-width: 100%;
+  background-image:url(../public/profile-cover.jpg);
+  background-size: cover;
+  background-position: center top;
+}
+
+.transparent{
+  background:linear-gradient(to right,rgba(19, 41, 73, 0.73) , rgba(10, 46, 80, 0.73));
+  opacity: inherit;
+  min-height: 600px;
+}
+
+.display2{
+  font-size: 2.75rem;
+  font-weight: 600;
+  line-height: 1.5; 
+  color: white;
+  margin-top: 200px;
+  margin-left: 25px;
+}
+
+.display3{
+  margin-top: 0 !important;
+  margin-bottom: 3rem !important;
+  color: white;
+  font-weight: 300;
+  font-size: 18px;
+  margin-left: 25px;
+}
+
+
+.editprofile{
+  margin-left: 25px;
+}
+
+@media screen and (max-width:768px){
+  .bgsecondary{
+    margin-right: 20px;
+  }
+}
+
+@media screen and (min-width:768px){
+  .all{
+  display: flex;
+  max-width:100%;
+}
+
+.ele1{
+  min-width: 240px;
+}
+
+.sidebar1{
+  position:fixed;
+  left: 0%;
+  overflow-y: scroll;
+  height: 100vh;
+  min-width: 240px;
+}
+
+.ele2{
+  background-color: rgb(248, 247, 247);
+}
+}
